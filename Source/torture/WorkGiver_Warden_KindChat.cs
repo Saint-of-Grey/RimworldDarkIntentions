@@ -8,7 +8,7 @@ using Verse.AI;
 using Verse.Sound;
 
 
-namespace DarkIntentions.torture
+namespace DarkIntentionsTorture
 {
     class WorkGiver_Warden_KindChat : WorkGiver_Warden_Chat
     {

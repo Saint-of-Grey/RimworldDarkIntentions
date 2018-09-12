@@ -5,7 +5,7 @@ using Verse;
 using Verse.AI;
 
 
-namespace DarkIntentions.torture
+namespace DarkIntentionsTorture
 {
     class JobDriver_Torture : JobDriver
     {

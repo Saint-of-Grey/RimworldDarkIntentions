@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace DarkIntentions
+namespace DarkIntentionsTorture
 {
     public class DarkIntentions
     {
@@ -16,6 +16,7 @@ namespace DarkIntentions
         public readonly static ThoughtDef AllowedMeToGetAbused = DefDatabase<ThoughtDef>.GetNamed("AllowedMeToGetAbused");
         public readonly static ThoughtDef DidSomeAbuse = DefDatabase<ThoughtDef>.GetNamed("DidSomeAbuse");
         public readonly static ThoughtDef BloodlustDidSomeAbuse = DefDatabase<ThoughtDef>.GetNamed("BloodlustDidSomeAbuse");
+
         public readonly static HediffDef feelingBroken = HediffDef.Named("FeelingBroken");
         /**
         public readonly static ThoughtDef WatchedSomeAbuse = DefDatabase<ThoughtDef>.GetNamed("WatchedSomeAbuse");

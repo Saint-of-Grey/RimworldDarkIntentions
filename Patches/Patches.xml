@@ -3,7 +3,7 @@
    <Operation Class="PatchOperationReplace">
       <xpath>/Defs/WorkGiverDef[giverClass = "WorkGiver_Warden_Chat"]/giverClass</xpath>
       <value>
-         <giverClass>DarkIntentions.torture.WorkGiver_Warden_KindChat</giverClass>
+         <giverClass>DarkIntentionsTorture.WorkGiver_Warden_KindChat</giverClass>
       </value>
    </Operation>
 </Patch>

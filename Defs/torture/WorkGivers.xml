@@ -4,7 +4,7 @@
 	<WorkGiverDef>
 		<defName>AbusePrisoner</defName>
 		<label>Abuse Prisoner</label>
-		<giverClass>DarkIntentions.torture.WorkGiver_Warden_Torture</giverClass>
+		<giverClass>DarkIntentionsTorture.WorkGiver_Warden_Torture</giverClass>
 		<workType>Warden</workType>
 		<verb>abuse</verb>
 		<gerund>abusing</gerund>

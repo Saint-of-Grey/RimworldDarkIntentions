@@ -8,7 +8,7 @@
 		<giverClass>JoyGiver_SocialRelax</giverClass>
 		<baseChance>1</baseChance>
 		<jobDef>PrisonerTorture</jobDef>
-		<desireSit>false</desireSit>
+		<desireSit>false</desireSit> 
 		<joyKind>AbuseAndTorture</joyKind>
 		<requiredCapacities>
 			<li>Manipulation</li>

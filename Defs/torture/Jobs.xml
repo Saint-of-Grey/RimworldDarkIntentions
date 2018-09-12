@@ -2,7 +2,7 @@
 <Defs>
   <JobDef>
     <defName>PrisonerTorture</defName>
-    <driverClass>DarkIntentions.torture.JobDriver_Torture</driverClass>
+    <driverClass>DarkIntentionsTorture.JobDriver_Torture</driverClass>
     <reportString>torturing TargetA.</reportString>
     <alwaysShowWeapon>true</alwaysShowWeapon>
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
