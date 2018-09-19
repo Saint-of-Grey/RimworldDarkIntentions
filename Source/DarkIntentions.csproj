@@ -7,8 +7,8 @@
     <ProjectGuid>{D7D21B4A-1DA7-41D8-B202-C58CA8FA62AA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DarkIntentions</RootNamespace>
-    <AssemblyName>DarkIntentions</AssemblyName>
+    <RootNamespace>DarkIntentionsTorture</RootNamespace>
+    <AssemblyName>DarkIntentionsTorture</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -59,14 +59,6 @@
     <Compile Include="torture\WorkGiver_Warden_Torture.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Defs\torture\Hediffs_FeelingBroken.xml" />
-    <Content Include="Defs\torture\interactions.xml" />
-    <Content Include="Defs\torture\Jobs.xml" />
-    <Content Include="Defs\torture\JoyGivers.xml" />
-    <Content Include="Defs\torture\JoyKind.xml" />
-    <Content Include="Defs\torture\PawnCapacity.xml" />
-    <Content Include="Defs\torture\Thoughts.xml" />
-    <Content Include="Defs\torture\WorkGivers.xml" />
     <Content Include="Patches\Patches.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

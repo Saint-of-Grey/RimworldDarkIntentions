@@ -19,10 +19,14 @@
 		<stages>
       <li>
 				<label>Tortured</label>
+				<socialFightChanceFactor>0</socialFightChanceFactor>
+        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+				<painOffset>0.25</painOffset>
+				<vomitMtbDays>50</vomitMtbDays>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<postFactor>0.95</postFactor>
+						 <offset>-0.10</offset>
 					</li>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -32,16 +36,24 @@
 						<capacity>Vulnerability</capacity>
 						<postFactor>0.90</postFactor>
 					</li>
+					
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
 				</capMods>
 			</li>
 			<li>
 				<label>In a trance</label>
         <minSeverity>0.201</minSeverity>
-				<painOffset>-0.4</painOffset>
+				<painOffset>0.4</painOffset>
+				<socialFightChanceFactor>0</socialFightChanceFactor>
+        <hungerRateFactorOffset>-0.5</hungerRateFactorOffset>
+		<vomitMtbDays>50</vomitMtbDays>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<postFactor>0.8</postFactor>
+						 <offset>-0.20</offset>
 					</li>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -51,16 +63,24 @@
 						<capacity>Vulnerability</capacity>
 						<postFactor>0.75</postFactor>
 					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.6</postFactor>
+					</li>
 				</capMods>
 			</li>
 			<li>
 				<label>Broken body</label>
 				<minSeverity>0.501</minSeverity>
-				<painOffset>0.05</painOffset>
+				<painOffset>0.5</painOffset>
+				<socialFightChanceFactor>0</socialFightChanceFactor>
+        <hungerRateFactorOffset>-0.4</hungerRateFactorOffset>
+		<vomitMtbDays>10</vomitMtbDays>
+		<forgetMemoryThoughtMtbDays>10</forgetMemoryThoughtMtbDays>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<postFactor>0.65</postFactor>
+						<postFactor>0.55</postFactor>
 					</li>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -68,7 +88,7 @@
 					</li>
 					<li>
 						<capacity>Moving</capacity>
-						<postFactor>0.9</postFactor>
+						<postFactor>0.3</postFactor>
 					</li>
 					<li>
 						<capacity>Talking</capacity>
@@ -78,15 +98,24 @@
 						<capacity>Vulnerability</capacity>
 						<postFactor>0.5</postFactor>
 					</li>
+					
+					  <li>
+						<capacity>Breathing</capacity>
+						<offset>-0.1</offset>
+					  </li>
 				</capMods>
 			</li>
 			<li>
 				<label>Extremely broken body</label>
 				<minSeverity>0.751</minSeverity>
+				<socialFightChanceFactor>0</socialFightChanceFactor>
+        <hungerRateFactorOffset>-0.6</hungerRateFactorOffset>
+		<vomitMtbDays>1</vomitMtbDays>
+		<forgetMemoryThoughtMtbDays>1</forgetMemoryThoughtMtbDays>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<postFactor>0.4</postFactor>
+						<postFactor>0.2</postFactor>
 					</li>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -94,16 +123,20 @@
 					</li>
 					<li>
 						<capacity>Moving</capacity>
-						<postFactor>0.7</postFactor>
+						<postFactor>0.2</postFactor>
 					</li>
 					<li>
 						<capacity>Talking</capacity>
-						<postFactor>0.8</postFactor>
+						<postFactor>0.2</postFactor>
 					</li>
 					<li>
 						<capacity>Vulnerability</capacity>
 						<postFactor>0.01</postFactor>
 					</li>
+				  <li>
+					<capacity>Breathing</capacity>
+					<offset>-0.2</offset>
+				  </li>
 				</capMods>
 			</li>
 		</stages>
